@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    font-family: "roboto", "sans-serif";
+    background-color: #dff7f8;
+    max-width: 100%;
+}
+
+header {
+    background: #e7517f;
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: #feffff;
+}
+
+nav {
+    font-size: 16px;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+nav a{
+    background-color: #feffff;
+    opacity: 0.7;
+    text-decoration: none;
+    color: #e7517f;
+    padding: 10px 70px;
+    margin: 50 px;
+    border-radius: 10px;
+    align-content: center;
+    font-weight: 600;
+}
+
+nav a:hover {
+    opacity: 1;
+}
+
+#foto {
+    float: left;
+    margin: auto;
+    max-width: 100%;
+    border-radius: 50%;
+    width: 170px;
+}
+
+main, article, aside {
+    text-align: justify;
+}
+
+h2 {
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+h3 {
+    padding: 20px;
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 16px;
+}
+
+p {
+    font-size: 14px;
+}
+
+section a {
+    text-decoration: none;
+    color: #000;
+}
+
+section a:hover {
+    color: #18f6ed;
+    opacity: 0.7;
+}
+
+table {
+    margin: auto;
+}
+
+table, th, td {
+    border: 1px solid #18f6ed;
+    text-align: center;
+    padding: 3px;
+}
+
+table {
+    background-color: #18f6ed;
+    border-radius: 10px;
+}
+
+th, td {
+    background-color: #dff7f8;
+}
+
+.highlight {
+    background-color: #e7517f;   
+}
+
+hr {
+    color: #000;
+}
+
+.topo {
+    text-align: right;
+    font-size: 12px;
+}
+
+.freddie-images {
+    height: 200px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin: auto;
+    align-content: center;
+}
+
+.lista {
+    font-size: 14px;
+}
+
+
+footer {
+    background: #e7517f;
+    padding: 15px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+footer a {
+    background-color: #feffff;
+    opacity: 0.7;
+    text-decoration: none;
+    color: #e7517f;
+    padding: 10px 70px;
+    margin: 50 px;
+    border-radius: 10px;
+    align-content: center;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+footer a:hover {
+    opacity: 1;
+}
+
+footer h4 {
+    text-transform: uppercase;
+    color: #feffff;
+    margin-top: auto;
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<!-- Exercício de Fixação 02 - Listas, Tabelas e Classes
+     21-01-2022
+     Ana Clara Barbeta-->
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Dashboard Ana Clara</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+            body {
+                font-family: "roboto", "sans-seriff";
+                background-color: #dff7f8;
+            }
+            table, th, td {
+                border: 1px solid #18f6ed;
+                text-align: center;
+                padding: 3px;
+            }
+
+            table {
+                background-color: #18f6ed;
+                border-radius: 10px;
+            }
+
+            th, td {
+                background-color: #dff7f8;
+            }
+
+            header {
+                background: #ee6698;
+                padding: 20px;
+                text-align: center;
+                color: #feffff;
+                text-transform: uppercase;
+            }
+
+            .highlight {
+                background-color: #ee6698;   
+            }
+        </style>
+    </head>
+    
+    <body>
+        <header>
+            <h1>Dashboard - Controle de jogos e lives</h1>
+        </header>
+        
+        <div>
+            <h2>Horário lives - Provisório</h2>
+            <p>Os horários estão sujeitos a alteração, a depender da volta das atividades em laboratório e demanda de atividades a fazer. Além disso, mostram apenas a disponibilidade nos horários pré-definidos, não sendo obrigatória a live todos os dias.</p>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="8">Previsão de lives na Twitch</th>
+                    </tr>
+                    <tr>
+                        <th>Horário</th>
+                        <th>Segunda</th>
+                        <th>Terça</th>
+                        <th>Quarta</th>
+                        <th>Quinta</th>
+                        <th>Sexta</th>
+                        <th>Sábado</th>
+                        <th>Domingo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>14h-17h</td>
+                        <td colspan="5">Laboratório</td>
+                        <td rowspan="2" colspan="2" class="highlight">  Live  </td>
+
+                    </tr> 
+                    <tr>
+                        <td>17h-19h</td>
+                        <td colspan="5">Descanso</td>
+                    </tr>
+                    <tr>
+                        <td>19h-22h</td>
+                        <td colspan="5"> Curso </td>
+                        <td rowspan="2" colspan="2"> Descanso </td>
+                    </tr>
+                    <tr>
+                        <td>22h-00h</td>
+                        <td colspan="5" class="highlight"> Live </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="list">
+            <h3>Próximos jogos a serem exibidos</h3>
+            <ol>
+                <li>Hollow Knight (progresso atual: 111%)</li>
+                <li>Cuphead</li>
+                <li>Baba is You</li>
+                <li>DOOM</li>
+                <li>Tomb Raider</li>
+            </ol>
+        </div>
+
+        <div class="list">
+            <h3>Lista de desejos (Steam)</h3>
+            <ul type="circle">
+                <li>Celeste</li>
+                <li>Hades</li>
+                <li>Ori</li>
+                <li>Little Nightmares</li>
+            </ul>
+        </div>
+    </body>
+</html>

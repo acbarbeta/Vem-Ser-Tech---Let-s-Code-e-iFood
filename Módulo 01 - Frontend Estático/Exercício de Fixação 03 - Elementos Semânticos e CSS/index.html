@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+
+<!-- Atividade de fixação 03 - Elementos Semânticos e CSS
+     28-01-2021
+     Ana Clara Barbeta-->
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Atividade de Fixação 03</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header id="titulo">
+            <h1>Portfolio atividades 1 e 2 - Ana Clara Barbeta</h1>
+            <nav>
+                <a href="#atividade-1">Atividade 01</a>
+                <a href="#atividade-2">Atividade 02</a>
+                <a href="#artigo">Artigo</a>
+            </nav>    
+        </header>
+        <main>
+            <section id="atividade-1">
+                <h2>Primeiro exercício de fixação - Apresentação</h2>
+                
+                <img src="https://pbs.twimg.com/profile_images/1293334862645153792/i1uzh2y7_400x400.jpg" id="foto">
+                
+                <h3>Background Pessoal</h3>
+                <p>Olá! Meu nome é Ana Clara, mas gosto de ser chamada de Clara. Sou natural de Londrina, no Paraná, mas atualmente moro em São Paulo-SP. Tenho 25 anos, sou engenheira de materiais, mas também bailarina clássica e canto em um grupo amador a cappella, o <b><a href="https://www.youtube.com/channel/UCO3dtppMfJ82nzD8Cuhs_YA" target="_blanck">Acappolli</a></b>. Além disso tudo, também gosto muito de ler, de cozinhar e faço streamings na <b><a href="https://www.twitch.tv/acbarbeta" target="_blank">Twitch</a></b> de jogos que gosto.</p>
+
+                <h3>Background Profissional</h3>
+                <p>Sou engenheira de materiais, formada pela UTFPR campus Londrina, em 2020. Atualmente, faço mestrado na Escola Politécnica da USP, na mesma área. Também trabalho com consultoria, mas como <i>freelancer</i>.</p>
+    
+                <h4>Por que estou migrando para a área de tecnologia?</h4>
+                <p>Sempre quis ser professora, nunca me imaginei atuando na indústria, mas a atual situação de pós-graduação e atuação nas universidades me fez pensar em transição de carreira. De certa forma, a área de tecnologia me atrai tanto pelo <u>mercado aquecido</u> quanto pela <u>paixão</u> pela área, que vem desde as aulas de mecatrônica no colégio. Assim, sempre estudei, por conta, algumas linguagens de programação e de marcação.</p>
+    
+                <h4>E o que eu espero do curso?</h4>
+                <ul class="lista">
+                    <li>Oportunidade para mudar de carreira;</li>
+                    <li>Aprimorar os conhecimentos que já tenho e descobrir novas ferramentas;</li>
+                    <li>Capacitar-me profissionalmente;</li>
+                    <li>Networking com pessoas iniciantes e que já trabalham na área de programação.</li>
+                </ul>
+    
+                <h5>Contato</h5>
+                <p>Para saber mais sobre mim ou mandar uma mensagem, acesse meu perfil no <a href="https://www.linkedin.com/in/ana-clara-barbeta-vicente/" target="_blank">LinkedIn!</a></p>
+
+                <p class="topo"> <a href="#titulo"> Voltar ao topo </a> </p>
+            </section>
+
+            <hr>
+
+            <section id="atividade-2">
+                <h2>Segundo Exercício de Fixação - Tabelas</h2>
+
+                <h3>Horário lives - Provisório</h3>
+                <p>Os horários estão sujeitos a alteração, a depender da volta das atividades em laboratório e demanda de atividades a fazer. Além disso, mostram apenas a disponibilidade nos horários pré-definidos, não sendo obrigatória a live todos os dias.</p>
+                
+                <div class="tabela">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th colspan="8">Previsão de lives na Twitch</th>
+                            </tr>
+                            <tr>
+                                <th>Horário</th>
+                                <th>Segunda</th>
+                                <th>Terça</th>
+                                <th>Quarta</th>
+                                <th>Quinta</th>
+                                <th>Sexta</th>
+                                <th>Sábado</th>
+                                <th>Domingo</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>14h-17h</td>
+                                <td colspan="5">Laboratório</td>
+                                <td rowspan="2" colspan="2" class="highlight">  Live  </td>
+        
+                            </tr> 
+                            <tr>
+                                <td>17h-19h</td>
+                                <td colspan="5">Descanso</td>
+                            </tr>
+                            <tr>
+                                <td>19h-22h</td>
+                                <td colspan="5"> Curso </td>
+                                <td rowspan="2" colspan="2"> Descanso </td>
+                            </tr>
+                            <tr>
+                                <td>22h-00h</td>
+                                <td colspan="5" class="highlight"> Live </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+           
+    
+                <div class="lista">
+                    <h3>Próximos jogos a serem exibidos</h3>
+                    <ol>
+                        <li>Hollow Knight (progresso atual: 111%)</li>
+                        <li>Cuphead</li>
+                        <li>Baba is You</li>
+                        <li>DOOM</li>
+                        <li>Tomb Raider</li>
+                    </ol>
+                </div>
+        
+                <div class="lista">
+                    <h3>Lista de desejos (Steam)</h3>
+                    <ul type="circle">
+                        <li>Celeste</li>
+                        <li>Hades</li>
+                        <li>Ori</li>
+                        <li>Little Nightmares</li>
+                    </ul>
+                </div>
+
+            <p class="topo"> <a href="#titulo"> Voltar ao topo </a> </p>
+            </section>
+            <hr>
+            <section id="artigo">
+                <article>
+                    <h2>Freddie Mercury - Por que tão amado?</h2>
+                    <p> Todos conhecem Freddie Mercury, vocalista de uma das maiores bandas existentes, Queen. Mas você sabe o que torna seu legado e suas performances tão memoráveis? Descubra aqui. </p>
+                    <p>A voz falada de Mercury possui o alcance de um barítono, mas a maioria de suas músicas se encontra na tessitura de tenor. Seu alcance vocal era notótio, de um F2 (característico dos baixos) a um F6 (característico de sopranos). Além disso, ele possuía técnica e coloratura invejáveis.</p>
+                    <p>Dez das 17 músicas do álbum Greatest Hits do Queen foram escritas por Freddie: “Bohemian Rhapsody”, “Seven Seas of Rhye”, “Killer Queen”, “Somebody to Love”, “Good Old-Fashioned Lover Boy”, “We Are the Champions”, “Biclycle Race”, “Don’t Stop Me Now”, “Crazy Little Thing Called Love” e “Play the Game”. Em 2003, ele foi postumamente introduzido no Hall da Fama de Compositores, junto ao resto da banda. Também é notável que ele inseriu diversos gêneros musicais em suas canções, como heavy metal, gospel, disco e rockabilly. Mercury também escreveu material musicalmente complexo, como "Bohemian Rhapsody", com uma estrutura não cíclica que compreende dezenas de acordes. Nessa música, ele também construiu uma ponte entre a música lírica e o rock.</p>
+                    <p>Em suas apresentações ao vivo, ele era um artista completo. Sempre mostrava um estilo altamente teatral e encorajava a participação do público, como no refrão de Radio Gaga chorus ou em sua performance interativa, Ay-Oh, que contava com resposta da audiência. Sua marca mais lembrada em palco foi seu microfone com suporte quebrado. E como uma de suas performances mais marcantes com Queen, podemos citar o Live Aid, em 1985, inclusive votado como a melhor performance ao vivo da história do rock.</p>
+                    <p>Além de um excelente cantor, Freddie também era exímio pianista, tendo iniciado seus estudos na Índia, ainda em sua infância. Frequentemente, ele tocava piano nas músicas mais populares do Queen, como “Killer Queen”, “Bohemian Rhapsody” e “Don’t Stop Me Now”. Ele também tinha habilidades rudimentares em guitarra, escrevendo muitas linhas para o instrumento.</p>
+                    <p> Mercury também gravou dois álbuns solo e vários singles, apesar de seu trabalho solo não ter obitdo tanto sucesso comercial como a maioria dos álbuns do Queen. Seus dois álbuns foram Mr. Bad Guy (1985) e Barcelona (1988). Este último foi gravado com a soprano espanhola Montserrat Caballé e combina elementos de música popular e ópera. Além disso tudo, Freddie também gravou diversas músicas com diferenes artistas, como Michael Jackson e David Bowie. </p>
+                </article>
+
+                <p class="topo"> <a href="#titulo"> Voltar ao topo </a> </p>
+            </section>
+        </main>
+        <hr>
+        <hr>
+        <aside>
+            <h4>Fotos de Freddie Mercury </h4>
+            <img src="images/freddie.jpg" alt="Freddie Mercury em um concerto ao vivo" class="freddie-images">
+            <img src="images/Freddie_Mercury_Tribute_Concert_poster.jpg" alt="Poster do tributo a Freddie Mercury, em 1992" class="freddie-images">
+            <img src="images/live_aid.jpg" alt="Freddie Mercury no Live Aid" class="freddie-images">
+            <img src="images/queen.jpg" alt="Banda Queen" class="freddie-images">
+        </aside>
+
+        <footer>
+            <h4>Contato</h4>
+            <a href="https://www.linkedin.com/in/ana-clara-barbeta-vicente/">LinkedIn</a>
+            <a href="https://github.com/acbarbeta">GitHub</a>
+            <a href="https://www.twitch.tv/acbarbeta">Twitch</a>
+            <a href="https://twitter.com/anacbarbeta">Twitter</a>
+
+        </footer>
+    </body>
+</html>
